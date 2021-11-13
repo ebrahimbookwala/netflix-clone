@@ -1,0 +1,42 @@
+.header {
+	display: flex;
+	align-items: center;
+	/* justify-content: space-between; */
+	padding: 1.5em 3em 0;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	gap: 2em;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0 auto;
+	display: block;
+}
+
+.primary-nav {
+	display: flex;
+	align-items: center;
+	gap: 2em;
+}
+
+.secondary-nav {
+	margin-left: auto;
+	display: flex;
+	gap: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.logo-container {
+	flex-basis: 10%;
+}
+
+.logo-image {
+	width: 80%;
+}
